@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <style>
+       body{
+           background-color: crimson;
+       }
+       header{
+           color: beige;
+           font-size: 70px;
+           text-align: center;
+       }
+       h1{
+           color: beige;
+           text-align: center;
+       }
+       #form{
+           background-color: antiquewhite;
+           display: inline-block;
+           padding-left: 250px;
+           padding-right: 600px;
+       }
+       .your{
+           color: black;
+           text-align: left;
+       }
+       .first,.last{
+           border-radius: 35px;
+           padding: 5px;
+       }
+       .button{
+           padding: 120px;
+           border-radius: 8px;
+           text-align: left;
+       }
+   </style>
+    </head>
+    <body>
+      <header>Website Survey Form</header>
+      <h1>Kindly fill out the form to help us improve our Website</h1>
+      <div id="form">
+          <h1 class="your">Your Name</h1>
+          <input class="first" type="text" placeholder="First name"> <br> <br>
+          <input class="last" type="text"  placeholder="last name">
+          <h1 class="your">Your Email</h1>
+          <input class="first" type="email" placeholder="Johndoe@email">
+          <h1 class="your">How did you hear about this Website</h1>
+          <select class="first">
+              <option>Select option</option>
+              <option>Social Media</option>
+              <option> Advertisement</option>
+            <option>Search Engine</option>
+            <option>My Friends</option>
+            </select>
+            <h1 class="your">Which device do you normally use to access the website</h1>
+            <input type="checkbox" name="check">
+            <label>Desktop/laptop</label> <br> <br>
+            <input type="checkbox" name="check" >
+            <label>Mobile Devices</label> <br> <br>
+            <input type="checkbox" name="check" >
+            <label>Pad Devices</label>
+            <h1 class="your">Are you satisfied with the website?</h1>
+            <input type="radio" id="very" name="very">
+            <label for="very">Very satisfied</label> <br><br>
+            <input type="radio" id="very" name="very">
+            <label for="unsatisfied">unsatisfied</label>
+
+            <h1 class="your">Additional Comments</h1>
+            <textarea cols="20" rows="10">additional information</textarea>
+             <br> <br>
+            <h1 class="your">Certifcate of participation</h1>
+            <input  type="file"> <br> <br>
+            <input type="submit">
+            
+          
+      </div>
+    </body>
+</html>
